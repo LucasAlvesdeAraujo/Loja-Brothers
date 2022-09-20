@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/dadoscadastro.css">
+    <title>DadosdoCadastro</title>
+    <link rel="icon" type="image/x-icon" href="../images/icon/icon.png">
+    <script defer src="../Js/dadosdocadastro.js"></script>
+</head>
+
+<body>
+    <header class="header-class">
+		<nav>
+			<img src="../images/header/logo.png" alt="">
+		</nav>
+		<div id="menu">
+    
+            <a href="index.html">Home | </a>
+            <a href="promoção.html">Promoções | </a>
+            <a href="login.html">Login| </a>
+            <a href="dadoscadastro.html">Meus Dados| </a>
+			<a href="sobrenos.html"> Sobre Nós|</a>
+        </div>
+	</header> 
+    <div class="container">
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Dados do Cadastro</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="login.html">Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Nome Completo</label>
+                        <input class="user-info" id="nome-completo" type="text" name="nome-completo" placeholder="Digite seu primeiro nome" readonly>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="usuario">Usuario</label>
+                        <input class="user-info" id="usuario" type="text" name="usuario" placeholder="Digite seu sobrenome" readonly>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input class="user-info" id="email" type="email" name="email" placeholder="Digite seu e-mail" readonly>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="estado">Estado</label>
+                        <input class="user-info" id="estado" type="estado" name="estado" placeholder="Digite seu Estado" readonly>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="bairro">Bairro</label>
+                        <input class="user-info" id="bairro" type="birro" name="bairro" placeholder="Digite seu Bairro" readonly>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cep">CEP</label>
+                        <input class="user-info" id="cep" type="cep" name="cep" placeholder="Digite seu CEP" readonly>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input  class="user-info" id="telefone" type="tel" name="telefone" placeholder="(xx) xxxx-xxxx" readonly>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input class="user-info" id="senha" type="text" name="senha" placeholder="Digite sua senha" readonly>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="footer-class">
+		<h4>&copy; BROTHERS</h4>
+		<h4>Telefone: (xx) xxxx-xxx</h4>
+		<h4>Endereço: rua 16, nº506, Recreio, Rio de Janeiro</h4>
+		<h4>E-mail: brothers@brothes.com</h4>
+	</footer>
+</body>
+
+</html>

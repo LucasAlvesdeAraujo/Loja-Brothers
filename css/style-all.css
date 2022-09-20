@@ -1,0 +1,34 @@
+
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	background: url(../images/fundo1.jpg);
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: auto;
+}
+
+
+.header-class {
+	width: 100%;
+	text-align: center;
+	background: rgb(255, 255, 255, 0.6);
+	flex-direction: row;
+    align-items: center;
+	DISPLAY: flex;
+	color: white;
+}
+.header-class img {
+	height: 150px;
+}
+#menu{
+    padding: 18px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}

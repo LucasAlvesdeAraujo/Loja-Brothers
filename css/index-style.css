@@ -1,0 +1,70 @@
+
+
+
+
+.main-section-class {
+	display: flex;
+
+	margin-left: 50px;
+}
+.main-section-class figure {
+	margin: 0;
+	padding: 0;
+}
+.main-section-class img {
+	width: 310px;
+	margin-right: 50px;
+	box-shadow: 4px 1px 6px black;
+
+	transition: 300ms ease;
+}
+.main-section-class img:hover {
+	transform: scale(1.1);
+} 
+
+.main-section-class figcaption {
+	margin-top: 15px;
+	font-size: 1.5em;
+	text-align: center;
+	color: white;
+	font-family: 'Tapestry', cursive;
+}
+.texto-vermelho {
+	color: red;
+}
+
+
+.contatos-section-class {
+	width: 100%;
+
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.contatos-section-class div {
+	width: 750px;
+	margin: 0 auto;
+	color: white;
+}
+.contatos-section-class h1 {
+	font-size: 3em;
+
+}
+
+.contatos-section-class p {
+	font-size: 1.5em;
+	/*margin: 0 auto;*/
+}
+
+.footer-class {
+	color: white;
+	display: flex;
+	width: 100%;
+	background: darkgray;
+	align-content: center;
+	justify-content: center;
+}
+
+.footer-class h4 {
+	margin-right: 50px;
+}

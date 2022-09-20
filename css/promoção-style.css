@@ -1,0 +1,38 @@
+.carousel-section {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.carousel {
+    overflow: hidden;
+    border-radius: 5%;
+    margin-top: 10px;
+}
+
+.carousel img {
+    width: 450px;
+        
+}
+.carousel div {
+    width: 450px;
+    display: flex;
+    transform: translateX(0);
+
+    animation: carousel-ani 4000ms ease alternate infinite 1s;
+} 
+
+@keyframes carousel-ani {
+    50% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
